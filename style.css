@@ -1,238 +1,262 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
 
 * {
-  padding: 0;
-  margin: 0;
-  font-family: "Baloo Bhai 2";
-  overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+	font-family: "Baloo Bhai 2";
+	overflow-x: hidden;
 }
 
 /* nav  section*/
 nav {
-  height: 8rem;
-  width: 100%;
-  border: 1px solid #e0e0e0;
-  box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.5);
-  position: fixed;
-  background-color: white;
+	height: 8rem;
+	width: 100%;
+	border: 1px solid #e0e0e0;
+	box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.5);
+	position: fixed;
+	background-color: white;
 }
 
 .nav-navigation {
-  height: 50%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	height: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 nav:hover {
-  border: 1px solid #adadad
+	border: 1px solid #adadad
 }
 
 .nav-logo {
-  height: 29px;
-  width: 145px;
-  background-image: url(/assets/motorola-logo.png);
-  background-size: cover;
+	height: 29px;
+	width: 145px;
+	background-image: url(/assets/motorola-logo.png);
+	background-size: cover;
 }
 
 .nav-icons {
-  display: flex;
+	display: flex;
 }
 
 .nav-menu-logo {
-  display: flex;
+	display: flex;
 }
 
 .icons {
-  margin: 5px;
+	margin: 5px;
 }
 
 .nav-searchbar {
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .nav-searchbar input {
-  height: 3rem;
-  width: 85%;
-  border: 1px solid #e0e0e0;
-  border-radius: 1px;
-  box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.5);
+	height: 3rem;
+	width: 85%;
+	border: 1px solid #e0e0e0;
+	border-radius: 1px;
+	box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.5);
 }
 
 .nav-searchbar button {
-  height: 3rem;
-  width: 8%;
-  border: 1px solid #e0e0e0;
-  border-radius: 1px;
-  box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.5);
+	height: 3rem;
+	width: 8%;
+	border: 1px solid #e0e0e0;
+	border-radius: 1px;
+	box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.5);
 }
 
 /* hero  section*/
 .hero-frame {
-  margin-top: 8rem;
-  background-image: url(/assets/hero-frame.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 568px;
-  width: 100%;
-  text-align: left;
-  padding-left: 10%;
-  padding-top: 10%;
+	margin-top: 8rem;
+	background-image: url(/assets/hero-frame.webp);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 568px;
+	width: 100%;
+	text-align: left;
+	padding-left: 10%;
+	padding-top: 10%;
 }
 
 .hero-phone-logo {
-  height: 50px;
+	height: 50px;
 }
 
 .hero-frame p {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 .hero-phone-tagline {
-  font-size: 3rem;
+	font-size: 3rem;
 }
 
 .hero-phone-info-box-firstline {
-  font-weight: 600;
+	font-weight: 600;
 }
 
 .hero-phone-info-box {
-  margin-top: 5px;
+	margin-top: 5px;
 }
 
 .hero-phone-info-price {
-  margin-top: 25px;
+	margin-top: 25px;
 }
 
 .hero-phone-info-buynow {
-  margin-top: 40px;
+	margin-top: 40px;
 }
 
 .hero-phone-info-box-buynowbtn {
-  border: 1px solid black;
-  padding: 10px;
-  border-radius: 40px;
-  background-color: transparent;
-  height: 40px;
-  width: 120px;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 40px;
+	background-color: transparent;
+	height: 40px;
+	width: 120px;
 }
 
 @media (min-width: 0px) and (max-width: 1024px) {
-  .hero-frame p {
-    font-size: 1rem;
-  }
-  
-  .hero-phone-tagline {
-    font-size: 2rem;
-  }
-  
-  .hero-phone-logo {
-    height: 40px;
-  }
+	.hero-frame p {
+		font-size: 1rem;
+	}
+	
+	.hero-phone-tagline {
+		font-size: 2rem;
+	}
+	
+	.hero-phone-logo {
+		height: 40px;
+	}
 }
 
 /*Main Slider*/
 
 .main-slider {
-  display: flex;
-  overflow-x: auto;
-  scroll-margin-left: 20px;
+	display: flex;
+	overflow-x: auto;
+	scroll-margin-left: 20px;
+	scroll-behavior: smooth;
 }
 
 .main-frame-1 {
-  min-width: 100%;
-  display: flex;
-  height: 568px;
-  background-image: url(/assets/main-slider.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 5px;
-  margin: 20px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  padding-left: 10%;
-  padding-top: 10%;
+	min-width: 100%;
+	display: flex;
+	height: 568px;
+	background-image: url(/assets/main-slider.webp);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	margin: 20px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	padding-left: 10%;
+	padding-top: 10%;
 }
 
 .main-phone-logo {
-  height: auto;
-  width: 18rem;
+	height: auto;
+	width: 18rem;
 }
 
 .colorwhite {
-  color: white;
+	color: white;
 }
 
 .main-phone-info-box-buynowbtn {
-  border: 1px solid white;
-  padding: 10px;
-  border-radius: 40px;
-  background-color: transparent;
-  height: 40px;
-  width: 120px;
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 40px;
+	background-color: transparent;
+	height: 40px;
+	width: 120px;
 }
 
 @media (min-width: 0px) and (max-width: 1024px) {
-  .main-phone-logo {
-    height: auto;
-    width: 15rem;
-  }
+	.main-phone-logo {
+		height: auto;
+		width: 15rem;
+	}
 }
 
 .main-frame-2 {
-  display: flex;
-  height: 568px;
-  background-image: url(https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/33a38ec2-1a34-4fbb-ada9-bb7a88b0ae15___f6682f2fd9c65c933f47c1187bc9de19.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 5px;
-  margin: 20px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  padding-left: 10%;
-  padding-top: 10%;
-  min-width: 100%;
+	display: flex;
+	height: 568px;
+	background-image: url(https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/33a38ec2-1a34-4fbb-ada9-bb7a88b0ae15___f6682f2fd9c65c933f47c1187bc9de19.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	margin: 20px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	padding-left: 10%;
+	padding-top: 10%;
+	min-width: 100%;
 }
 
 .phone-section-slider {
-  display: flex;
-  overflow-x: auto;
-  scroll-margin-left: 20px;
+	display: flex;
+	overflow-x: auto;
+	scroll-margin-left: 20px;
+	scroll-behavior: smooth;
 }
 
 .phone-section-cards {
-  background-color: #f5f3f1;
-  min-height: 338px;
-  min-width: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  margin: 20px;
-  padding: 20px;
+	background-color: #f5f3f1;
+	min-height: 338px;
+	min-width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	margin: 20px;
+	padding: 20px;
 }
 
 .phone-section-cards img {
-  height: auto;
-  width: 50%;
+	height: auto;
+	width: 50%;
 }
 
 .bluebtn {
-  background-color: #0e77da;
-  color: white;
+	background-color: #0e77da;
+	color: white;
 }
 
 @media screen and (max-width: 767px) and (orientation: portrait) {
-  .phone-section-cards {
-    min-width: 95%;
-  }
+	.phone-section-cards {
+		min-width: 95%;
+	}
+}
+
+.slider-nav {
+	display: flex;
+	column-gap: 1rem;
+	position: relative;
+	bottom: 1.25rem;
+	left: 50%;
+	margin-top: 20px;
+	z-index: -1;
+}
+.slider-nav a {
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: black;
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+	opacity: 1;
 }
