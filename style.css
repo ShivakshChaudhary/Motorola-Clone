@@ -349,3 +349,48 @@ nav:hover {
 .margin {
 	margin: 5px;
 }
+
+/*footer-search*/
+.footer-search {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.footer-search-heading {
+	font-size: 32px;
+}
+
+#footer-search-input {
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+
+.footer-search-btn {
+	border: none;
+	background: none;
+	color: #000;
+}
+
+.footer-searchbar {
+	padding-top: 4px;
+	padding-left: 8px;
+	border: 1px solid #adadad;
+	border-radius: 15px;
+	width: 40%;
+	height: 30px;
+}
+.footer-search-suggestion-btn:hover {
+	background-color: #adadad;
+}
+
+.footer-search-suggestion-btn {
+	margin: 5px;
+	padding: 5px;
+	background: none;
+	color: #000;
+	border: 1px solid #adadad;
+	border-radius: 15px;
+}
