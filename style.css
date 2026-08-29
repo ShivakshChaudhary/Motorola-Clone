@@ -15,6 +15,7 @@ nav {
 	box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.5);
 	position: fixed;
 	background-color: white;
+	z-index: 10;
 }
 
 .nav-navigation {
@@ -246,7 +247,7 @@ nav:hover {
 	bottom: 1.25rem;
 	left: 50%;
 	margin-top: 20px;
-	z-index: -1;
+	z-index: 0;
 }
 .slider-nav a {
 	width: 0.5rem;
