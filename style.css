@@ -249,6 +249,7 @@ nav:hover {
 	margin-top: 20px;
 	z-index: 0;
 }
+
 .slider-nav a {
 	width: 0.5rem;
 	height: 0.5rem;
@@ -260,4 +261,40 @@ nav:hover {
 
 .slider-nav a:hover {
 	opacity: 1;
+}
+
+/*MAIN 2*/
+
+.main-second-1 {
+	display: flex;
+	height: 568px;
+	background-image: url(/assets/main2-1.webp);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	margin: 20px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	padding-left: 10%;
+	padding-top: 10%;
+	min-width: 100%;
+}
+
+.main-second-2 {
+	display: flex;
+	height: 568px;
+	background-image: url(/assets/main2-2.webp);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	margin: 20px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	padding-left: 10%;
+	padding-top: 10%;
+	min-width: 100%;
 }
