@@ -228,6 +228,10 @@ nav:hover {
 }
 
 @media screen and (max-width: 767px) and (orientation: portrait) {
+	.footer-search p.footer-search-heading {
+	font-size: 20px !important;
+}
+	
 	.phone-section-cards {
 		min-width: 95%;
 	}
@@ -443,12 +447,15 @@ nav:hover {
 	border: 1px solid #adadad;
 	border-radius: 15px;
 }
+
 .footer-language img {
 	height: 15px;
 }
+
 .footer-social img {
 	height: 29px;
 }
+
 .footer-social i {
 	margin: 20px;
 	height: 20px;
@@ -459,6 +466,7 @@ nav:hover {
 	background: transparent;
 	margin: 5px;
 }
+
 .dnm-email button {
 	color: white;
 	background-color: #001428;
