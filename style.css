@@ -382,6 +382,7 @@ nav:hover {
 	width: 40%;
 	height: 30px;
 }
+
 .footer-search-suggestion-btn:hover {
 	background-color: #adadad;
 }
@@ -393,4 +394,75 @@ nav:hover {
 	color: #000;
 	border: 1px solid #adadad;
 	border-radius: 15px;
+}
+
+.dnm {
+	height: 200px;
+	width: 100%;
+	background-color: #f8f6f4;
+	background-image: url(/assets/dnm.svg);
+	background-repeat: no-repeat;
+	background-position: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.footer-social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.footer-social-icons {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.footer-language {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.footer-trademark {
+	text-align: center;
+	
+	font-size: 0.9rem;
+	background-color: #f5f5f5;
+}
+
+.dnm-email {
+	margin: 5px;
+	background: none;
+	color: white;
+	border: 1px solid #adadad;
+	border-radius: 15px;
+}
+.footer-language img {
+	height: 15px;
+}
+.footer-social img {
+	height: 29px;
+}
+.footer-social i {
+	margin: 20px;
+	height: 20px;
+	width: auto;
+}
+
+.dnm-email input {
+	background: transparent;
+	margin: 5px;
+}
+.dnm-email button {
+	color: white;
+	background-color: #001428;
+	border: none;
+	height: 100%;
+	padding: 5px;
 }
